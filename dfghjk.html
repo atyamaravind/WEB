@@ -1,0 +1,68 @@
+<!doctype html>
+<html> 
+    <head>
+            <title>Login</title>
+            <style>
+                *{
+                    box-sizing:border-box;
+                }
+                input[type ="text"],input[type="password"]
+                {
+                    width: 100%;
+                    font-size: 20px;
+                    padding: 12px;
+                margin: 5px 0px 20px 0px;
+                display: inline-block;
+                border: none;
+                background:#bcc0c5c5;
+
+            }lable{
+                fount-size:18px;
+            }
+            hr{
+                border: 2px solid black;
+            margin-bottom: 20px;  
+            } 
+            button{fontsize: 18px;
+                font-weight: bold;
+                background-color: rgb(15,120,15);
+                color: white;
+                padding: 14px 20px;
+                margin: 10px 0px;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+                opacity: 0.6;
+            }
+            button:hover{
+                opacity: 1;
+            }
+            .cancel{
+                padding: 14px 20px;
+                background-color:red;
+            }    
+            </style>
+        </head>
+ <body><form>
+    <div><h1>Sign up form
+    </h1>
+<hr>
+<lable><b>Email</b></lable>
+<input type="text" placeholder="Enter your Email">
+    
+<lable><b>Password</b></lable>
+<input type="text" placeholder="Enter your password">
+<lable><b>enter</b></lable>
+<input type="text" placeholder="Re-Enter password Email">
+
+<lable>
+    <input type= "checkbox" checked="checked">remember me</lable>
+<p>
+    I accept the T&C attached <a href=" ">Terms and conditions</a></div> 
+<!--second division below for buttons-->
+<div><button class="cancel"type="button">
+    Cancel</button>
+<button type="submit">Signup</button></div>
+</form>
+ </body>
+ </html>
